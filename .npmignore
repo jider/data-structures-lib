@@ -1,6 +1,7 @@
 /src
 /node_modules
 
+.github
 .idea
 .env
 

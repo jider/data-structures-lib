@@ -1,6 +1,6 @@
 {
   "name": "@jidr/data-structures-lib",
-  "version": "0.1.3",
+  "version": "0.0.0-development",
   "description": "Only for testing purposes. Data Structures not covered by native JS.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -24,7 +24,15 @@
   },
   "homepage": "https://github.com/jider/data-structures-lib#readme",
   "devDependencies": {
+    "semantic-release": "^24.0.0",
     "tsup": "^8.2.4",
     "typescript": "^5.5.4"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
   }
 }
